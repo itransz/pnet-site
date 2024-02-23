@@ -14,6 +14,39 @@
 --------------------------------------------------------------*/
 /* Style for Contact form */
 
+.container {
+  text-align: center;
+}
+
+.moving-text {
+  display: inline-block;
+  animation: moveText 2s linear infinite alternate, changeColor 4s linear infinite alternate;
+}
+
+@keyframes moveText {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes changeColor {
+  0% {
+    color: blue;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: green;
+  }
+}
+
 :root {
   scroll-behavior: smooth;
 }
