@@ -36,14 +36,18 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
   <!-- =======================================================
   * Template Name: HeroBiz
   * Updated: Jan 29 2024 with Bootstrap v5.3.2
   * Template URL: https://bootstrapmade.com/herobiz-bootstrap-business-template/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  ======================================================== --> 
+  <style>
+    #officeFormContent {
+      display: none; /* Hide the office form content by default */
+    }
+    </style> 
 </head>
 
 <body>
@@ -65,6 +69,7 @@
           <li><a class="nav-link scrollto" href="index.html#hero">Features</a></li>
           <li><a class="nav-link scrollto" href="index.html#pricing">Plans</a></li>
           <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="index.html#support">Support</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle d-none"></i>
       </nav><!-- .navbar -->
@@ -272,89 +277,256 @@
 
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-
-        <div class="section-header">
-          <h2>Contact Us</h2>
-          <p><img src="assets/img/pnet-logo.png" alt="logo" width="50" height="50"/></p>
-          <p>I-Transz FTTX Pvt Ltd</p>
-        </div>
-
+<section id="contact" class="contact">
+    <div class="container">
+  
+      <div class="section-header">
+        <h2>Contact Us</h2>
+        <p><img src="assets/img/pnet-logo.png" alt="logo" width="50" height="50"/></p>
+        <p>I-Transz FTTX Pvt Ltd</p>
       </div>
-
-      <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d605.5159816748884!2d79.80903432384638!3d11.92127942155292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1707748762603!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div><!-- End Google Maps -->
-
-      <div class="container">
-
-        <div class="row gy-5 gx-lg-5">
-
-          <div class="col-lg-4">
-
-            <div class="info">
-              <h3>Get in touch</h3>
-              <p><img src="assets/img/pnet-logo.png" alt="logo" width="50" height="50"/></p>
-              <p>I-Transz FTTX Pvt Ltd</p>
-
-              <div class="info-item d-flex">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h4>Location:</h4>
-                  <p>No 115, SB Tower, First Floor, Sri kumaran Nagar, Mudaliarpet, Pondicherry - 605004</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex">
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h4>Email:</h4>
-                  <p>accounts@pnet.co.in</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex">
-                <i class="bi bi-phone flex-shrink-0"></i>
-                <div>
-                  <h4>Call:</h4>
-                  <p>+91 8925599069</p>
-                </div>
-              </div><!-- End Info Item -->
-
-            </div>
-
+  
+    </div>
+  
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d605.5159816748884!2d79.80903432384638!3d11.92127942155292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1707748762603!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div><!-- End Google Maps -->
+  
+    <div class="container">
+  
+      <div class="row gy-5 gx-lg-5">
+  
+        <div class="col-lg-4">
+  
+          <div class="info">
+            <h3>Get in touch</h3>
+            <p><img src="assets/img/pnet-logo.png" alt="logo" width="50" height="50"/></p>
+            <p>I-Transz FTTX Pvt Ltd</p>
+  
+            <div class="info-item d-flex">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h4>Location:</h4>
+                <p>No 115, SB Tower, First Floor, Sri kumaran Nagar, Mudaliarpet, Pondicherry - 605004</p>
+              </div>
+            </div><!-- End Info Item -->
+  
+            <div class="info-item d-flex">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h4>Email:</h4>
+                <p>accounts@pnet.co.in</p>
+              </div>
+            </div><!-- End Info Item -->
+  
+            <div class="info-item d-flex">
+              <i class="bi bi-phone flex-shrink-0"></i>
+              <div>
+                <h4>Call:</h4>
+                <p>+91 8925599069</p>
+              </div>
+            </div><!-- End Info Item -->
+  
           </div>
-
-          <div class="col-lg-8">
-            <form action="https://formsubmit.co/33efb3ecfd8b7ff840785dabeb025cc8" method="post" role="form" class="php-email-form">
+  
+        </div>
+  
+        <div class="col-lg-8">
+          <form action="https://formbold.com/s/oe2Wy" id="homeForm" method="post" role="form" class="php-email-form">
+            <center>
+              <h3>Select your location</h3>
+                  <label><input type="radio" name="radiobuttons_B5893861-FCEC-42FF-86A2-8ACA84596AE9" value="home" onclick="showForm(this.value)"checked> Home</label>
+                  <label><input type="radio" name="radiobuttons_B5893861-FCEC-42FF-86A2-8ACA84596AE9" value="office" onclick="showForm(this.value)"> Office</label>
+                  </center>
+              <div class="form-content" id="homeFormContent">
               <div class="row">
-                <div class="col-md-6 form-group">
-					<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <div class="col-md-6 form-group mt-3">
+                      <input type="text" name="text_input_D39E11C7-4288-42CC-8ADC-538D0E55B587" class="form-control" id="home_name" placeholder="Your Name" required>
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-3">
+                      <input type="text" class="form-control" name="phone_input_28065EED-1540-4F41-835C-F44267F39F60" id="home_mobile_number" placeholder="Mobile Number" required>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-6 form-group mt-3">
+                      <input type="email" class="form-control" name="email_input_944F4FA4-045E-4EDD-B446-2C08D05602D6" id="home_email" placeholder="Your Email" required>
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-3">
+                      <input type="text" class="form-control" name="text_input_6DD2B3E4-0242-42F5-8408-AE8ED7005D80" id="home_address" placeholder="Enter your Address" required>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-6 form-group mt-3 mt-md-3">
+                      <select id="city" class="form-control" name="dropdown_7E582660-8296-4112-A381-7CB7EB8A65CC" required>
+                          <option value="Select City">Select city</option>
+                          <option value="Puducherry">Puducherry</option>
+                      </select>
+                  </div>
+                  <div class="col-md-6 form-group mt-3">
+                      <select id="area" class="form-control" name="dropdown_ED7CF533-1318-4AB6-A2D9-62163C6E8159" required>
+                          <option value="Area">Select Your Area</option>
+                          <option value="Ariyankuppam">Ariyankuppam</option>
+                          <option value="Manavely">Manavely</option>
+                          <option value="Veerampattinam">Veerampattinam</option>
+                          <option value="Chinna veerampattinam">Chinna veerampattinam</option>
+                          <option value="Nonankuppam">Nonankuppam</option>
+                          <option value="Nainaarmandapam">Nainaarmandapam</option>
+                          <option value="Murungampakkam">Murungampakkam</option>
+                      </select>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-6 form-group mt-3 mt-md-3">
+                      <label for="house">Do you live in a multi-storey house?</label>
+                      <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" id="multi-storey-yes" name="radiobuttons_B3311A9B-053B-4087-BF50-C683A047BBA3" value="Yes Staying in Multi Storey House " required>
+                          <label class="form-check-label ml-2" for="multi-storey-yes">Yes</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" id="multi-storey-no" name="radiobuttons_B3311A9B-053B-4087-BF50-C683A047BBA3" value="No not Staying in Multi Storey House">
+                          <label class="form-check-label ml-2" for="multi-storey-no">No</label>
+                      </div>
+                  </div>
+                  <div class="col-md-6 form-group mt-3">
+                      <select id="city" class="form-control" name="dropdown_316B2981-52C9-4FE9-98C7-111ECA11FC4" required>
+                          <option value="">Connection need for?</option>
+                          <option value="Ground Floor">Ground Floor</option>
+                          <option value="I Floor">I Floor</option>
+                          <option value="II Floor">II Floor</option>
+                          <option value="III Floor">III Floor</option>
+                      </select>
+                  </div>
+              </div>
+              <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Request Subscription</button></div>
+              </div>
+          </form>
+          <!-- Office form content -->
+          <form action="https://formbold.com/s/oe2Wy" id="officeForm" method="post" role="form" class="php-email-form">
+            <div class="form-content" id="officeFormContent">
+              <div class="row">
+                  <div class="col-md-6 form-group mt-3">
+                      <input type="text" name="text_input_D39E11C7-4288-42CC-8ADC-538D0E55B587" class="form-control" id="office_person_name" placeholder="Your Name" required>
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-3">
+                      <input type="text" class="form-control" name="phone_input_28065EED-1540-4F41-835C-F44267F39F60" id="office_mobile-number" placeholder="Mobile Number" required>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-6 form-group mt-3">
+                      <input type="email" class="form-control" name="email_input_944F4FA4-045E-4EDD-B446-2C08D05602D6" id="office_email" placeholder="Your Email" required>
+                  </div>
+                    <div class="col-md-6 form-group mt-3">
+                        <input type="text" name="text_input_CE60F582-F793-45F7-8B8C-473182BF98AF" class="form-control" id="office_name" placeholder="Company Name" required>
+                    </div>
+                    </div>
+                    <div class="row">
+                  <div class="col-md-6 form-group mt-3 mt-md-3">
+                      <input type="text" class="form-control" name="text_input_6DD2B3E4-0242-42F5-8408-AE8ED7005D80" id="office_address" placeholder="Enter your Address" required>
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-3">
+                      <select id="city" class="form-control" name="dropdown_7E582660-8296-4112-A381-7CB7EB8A65CC" required>
+                          <option value="">Select city</option>
+                          <option value="Puducherry">Puducherry</option>
+                      </select>
+                  </div>
                 </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-					<input type="text" class="form-control" name="mobile-number" id="mobile-number" placeholder="Mobile Number" required>
-				</div>
+                <div class="row">
+                  <div class="col-md-6 form-group mt-3">
+                      <select id="area" class="form-control" name="dropdown_ED7CF533-1318-4AB6-A2D9-62163C6E8159" required>
+                          <option value="">Select Your Area</option>
+                          <option value="Ariyankuppam">Ariyankuppam</option>
+                          <option value="Manavely">Manavely</option>
+                          <option value="Veerampattinam">Veerampattinam</option>
+                          <option value="Chinna veerampattinam">Chinna veerampattinam</option>
+                          <option value="Nonankuppam">Nonankuppam</option>
+                          <option value="Nainaarmandapam">Nainaarmandapam</option>
+                          <option value="Murungampakkam">Murungampakkam</option>
+                      </select>
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-3">
+                      <label for="house">Do you live in a multi-storey house?</label>
+                      <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" id="multi-storey-yes" name="radiobuttons_B3311A9B-053B-4087-BF50-C683A047BBA3" value="Yes Staying in Multi Storey House " required>
+                          <label class="form-check-label ml-2" for="multi-storey-yes">Yes</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" id="multi-storey-no" name="radiobuttons_B3311A9B-053B-4087-BF50-C683A047BBA3" value="No not Staying in Multi Storey House">
+                          <label class="form-check-label ml-2" for="multi-storey-no">No</label>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="row">
+                  <div class="col-md-6 form-group mt-3">
+                      <select id="city" class="form-control" name="dropdown_316B2981-52C9-4FE9-98C7-111ECA11FC4" required>
+                          <option value="">Connection need for?</option>
+                          <option value="Ground Floor">Ground Floor</option>
+                          <option value="I Floor">I Floor</option>
+                          <option value="II Floor">II Floor</option>
+                          <option value="III Floor">III Floor</option>
+                      </select>
+                  </div>
+                  </div>
+              <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-			  <div class="form-group mt-3" >
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+              <div class="text-center"><button type="submit">Request Subscription</button></div>
               </div>
+            </form>
+            </div>
+    <!--- Support us page-->
+
+    <section id="support" class="support">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Customer Support</h2>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <form action="https://formbold.com/s/oDmxA" id="supportForm" method="post" role="form" class="php-email-form">
+
+              <div class="form-group">
+                <input type="text" name="text_input_C21B799D-FC3A-4D2A-9730-D312E0E2E8DC" class="form-control" id="support_name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email_input_61621E7B-8F02-4059-92F0-670B248951B5" id="support_email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <select id="area" class="form-control" name="dropdown_6299637C-6FDD-4CF3-85FF-FBB3EFA30459" required>
+                  <option value="">Select Your Request</option>
+                  <option value="General Request">General Request</option>
+                  <option value="New Request">New Request</option>
+                  <option value="Link Down">Link Down</option>
+                  <option value="Speed Issue">Speed Issue</option>
+                  <option value="Link is Flapping">Link is Flapping</option>
+                  <option value="Upload and Documents Issues">Upload and Documents Issues</option>
+                  <option value="Router Issue">Router Issue</option>
+                  <option value="Other Issue">Other Issue</option>
+                  <option value="Reconnection Request">Reconnection Request</option>
+                  <option value="Home Shifting Request">Home Shifting Request</option>
+                  <option value="Payment Issues">Payment Issues</option>
+                </select>
+              </div>
+              
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Request Subscription</button></div>
+            </div>
+            <div class="text-center"><button type="submit">Contact Customer Support</button></div>
+            </div>
             </form>
-          </div><!-- End Contact Form -->
-
-        </div>
-
+          </div>
       </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
+    </section>
+    
+  
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
 
@@ -438,8 +610,8 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+  <script src="assets/js/main.js">
+  </script>
 </body>
 
 </html>
