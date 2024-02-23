@@ -12,6 +12,8 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+/* Style for Contact form */
+
 :root {
   scroll-behavior: smooth;
 }
@@ -1738,6 +1740,10 @@ section {
   .testimonials .testimonial-item p {
     width: 80%;
   }
+}
+
+.support {
+  background: rgba(var(--color-secondary-rgb), 0.04);
 }
 
 /*--------------------------------------------------------------

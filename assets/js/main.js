@@ -5,6 +5,8 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
 
@@ -296,3 +298,20 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 });
+
+document.getElementById('homeFormContent').style.display = 'block';
+
+  function showForm(locationType) {
+    var homeFormContent = document.getElementById('homeFormContent');
+    var officeFormContent = document.getElementById('officeFormContent');
+
+    if (locationType === 'home') {
+      homeFormContent.style.display = 'block';
+      officeFormContent.style.display = 'none';
+    } else if (locationType === 'office') {
+      homeFormContent.style.display = 'none';
+      officeFormContent.style.display = 'block';
+    }
+  }
+
+
