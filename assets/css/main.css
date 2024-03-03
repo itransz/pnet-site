@@ -260,7 +260,7 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
+  max-height: 110px;
   margin-right: 6px;
 }
 
@@ -2280,8 +2280,9 @@ section {
 
 .contact .info p {
   color: var(--color-secondary-light);
-  margin-bottom: 30px;
+  margin-bottom: 5px;
   font-size: 15px;
+  margin-right: 60px;
 }
 
 .contact .info-item+.info-item {
@@ -2300,6 +2301,7 @@ section {
 .contact .info-item h4 {
   padding: 0;
   font-size: 18px;
+  margin-right: 70px;
   font-weight: 600;
   margin-bottom: 5px;
   color: var(--color-secondary);
