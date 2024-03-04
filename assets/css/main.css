@@ -2382,15 +2382,18 @@ section {
 .contact .info h3 {
   font-weight: 600;
   font-size: 24px;
+  margin-right: 62px;
 }
 
 .contact .info p {
   color: var(--color-secondary-light);
   margin-bottom: 5px;
   font-size: 15px;
-  margin-right: 10px;
+  margin-left: 20px;
 }
-
+.contact .info .Company{
+  margin-right: 80px;
+}
 .contact .info-item+.info-item {
   padding-top: 20px;
   margin-top: 20px;
@@ -2398,7 +2401,7 @@ section {
 }
 .contact .info img{
   max-height: 70px;
-  margin-left: 20px;
+  margin-right: 80px;
 }
 .contact .info-item i {
   font-size: 24px;
@@ -2408,11 +2411,12 @@ section {
 }
 
 .contact .info-item h4 {
-  padding: 0;
+  padding:0;
   font-size: 18px;
-  margin-right: 140px;
+  margin-right: 200px;
   font-weight: 600;
   margin-bottom: 5px;
+  margin-top: 5px;
   color: var(--color-secondary);
 }
 
