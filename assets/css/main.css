@@ -3335,10 +3335,19 @@ section {
 
 
 /* Terms and Conditions */
+.terms .section-header {
+  text-align: center;
+  padding-top: 120px;
+  /* Add significant top padding */
+  margin-bottom: 60px;
+  /* Add some bottom margin for better spacing */
+}
+
 .terms-content {
   padding: 30px;
   background: var(--color-white);
   box-shadow: 0px 2px 15px rgba(var(--color-black-rgb), 0.1);
+  text-align: left;
 }
 
 .terms-content h3 {
